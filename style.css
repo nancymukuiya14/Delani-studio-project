@@ -96,31 +96,54 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       color: white;
+      width: 100%;
   }
   .form-display {
-      padding: 60px;
+      padding: 40px;
+      position: relative;
+      margin-left: 200px;
   }
   .message {
       position: relative;
-      bottom: 100px;
-      width:50%;
+      bottom: 60px;
+      width:70%;
+      height: 200px;
+      background-color: transparent;
+      border: 1px solid white;
   }
   #email {
-      width: 60%;
+      width: 80%;
       position: relative;
       left: -200px;
+      background-color: transparent;
+      border: 1px solid white;
+      
       
   }
   #fullname {
-      width: 60%;
+      width: 80%;
+      background-color: transparent;
+      border: 1px solid white;
   }
   .contacts {
       text-align: center;
       position: relative;
       top: 50px;
   }
-  /* h1 {
-      text-align: center;
+  #fullname::placeholder {
+      color: white;
+  }
+  #email::placeholder {
+      color: white;
+  }
+  #message::placeholder {
+      color: white;
+  }
+  .btn {
+      background-color: blue;
+      padding: 15px;
+      color: white;
       position: relative;
-      top: 50px;
-  } */
+      bottom: 100px;
+      left: 260px;
+  }
