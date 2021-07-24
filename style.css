@@ -58,7 +58,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding: 15px;
+    padding: 30px;
 }
 .three {
     text-align: center;
@@ -146,4 +146,12 @@ body {
       position: relative;
       bottom: 100px;
       left: 260px;
+  }
+  .social-media {
+      display: flex;
+      position: relative;
+      margin-left: 300px;
+  }
+  .studio {
+      text-align: center;
   }
