@@ -14,3 +14,23 @@ $(document).ready(function () {
         });
     });
 
+
+    // $(document).ready(function(){ 
+    //     $("#projectname1").hover(
+    //       function(){
+    //         $(this).css("background-color","white");
+    //        }, function(){
+    //         $(this).css("background-color","black");
+    //        }
+    //     );
+    // });
+    // $(document).ready(function(){ 
+    //     $("#projectname2").hover(
+    //       function(){
+    //         $(this).css("background-color","white");
+    //        }, function(){
+    //         $(this).css("background-color","black");
+    //        }
+    //     );
+    // });
+

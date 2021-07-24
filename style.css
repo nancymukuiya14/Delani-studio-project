@@ -168,29 +168,27 @@ body {
   .studio {
       text-align: center;
   }
-  .text {
+ .text {
     text-align: center;
     position:absolute;
     top: 0; right:0;
-    bottom: 0; left:0px;
+    bottom: -50px; left:0px;
     width: 100%;
     height: 100%;
-    background-color:rgb(#fff,0.2);
-  }
-    /* opacity: 0; */
-    /* -webkit-transition: opacity 0.6s;
+    background-color:rgba(245, 239, 239,0.3);
+    opacity: 0;
+    -webkit-transition: opacity 0.6s;
     -moz-transition: opacity 0.6s;
     transition: opacity 0.6s;
     vertical-align:middle;
     line-height:200px;
-} */
-.text:hover {
+  } 
+ .text:hover {
   opacity: 1;
-  /* left: 50px;
-  top: 50px; */
 }
-.text p{
-    color: white;
+.text p {
+    position: relative;
+    color: black;
     display: inline-table;
    vertical-align:middle;
    line-height:100%;            
