@@ -1,3 +1,4 @@
+//what we do section//
 $(document).ready(function () {
 
         $("#design").click(function () {
@@ -12,25 +13,20 @@ $(document).ready(function () {
             $(".productimage").toggle();
             $(".defination3").toggle();
         });
-    });
 
-
-    // $(document).ready(function(){ 
-    //     $("#projectname1").hover(
-    //       function(){
-    //         $(this).css("background-color","white");
-    //        }, function(){
-    //         $(this).css("background-color","black");
-    //        }
-    //     );
-    // });
-    // $(document).ready(function(){ 
-    //     $("#projectname2").hover(
-    //       function(){
-    //         $(this).css("background-color","white");
-    //        }, function(){
-    //         $(this).css("background-color","black");
-    //        }
-    //     );
-    // });
+        // contact form validation//
+   //adding event listener//
+var btn= document.getElementById("send-message");
+btn.addEventListener("click", function () {
+var name = document.getElementById("fullname").value;
+var email = document.getElementById("email").value;
+var message = document.getElementById("message").value;
+    //control structure//
+if (name=="" || email=="" || message=="") {
+ alert("Please fill all the fields");
+ }
+ else
+ alert("Hello!We are delighted to have you,we have received your message")
+});
+});
 
