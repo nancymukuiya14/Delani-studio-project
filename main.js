@@ -13,91 +13,48 @@ $(document).ready(function () {
         $(".productimage").toggle();
         $(".defination3").toggle();
     });
+    // portfolio hover effect//
+
+    $(".text1").hover(function () {
+        $(".text1").animate({ opacity: 0.8 },1000);
+
+       });
+
+    $(".text2").hover(function () {
+        $(".text2").animate({ opacity: 0.8 },1000);
+
+       });
+
+    $(".text3").hover(function () {
+        $(".text3").animate({ opacity: 0.8 },1000);
+
+       });
+
+    $(".text4").hover(function () {
+        $(".text4").animate({ opacity: 0.8 },1000);
+
+       });
+
+    $(".text5").hover(function () {
+        $(".text5").animate({ opacity: 0.8 },50);
+
+       });
+
+    $(".text6").hover(function () {
+        $(".text6").animate({ opacity: 0.8 },1000);
+
+       });
+
+    $(".text7").hover(function () {
+        $(".text7").animate({ opacity: 0.8 },1000);
+
+       });
+
+    $(".text8").hover(function () {
+        $(".text8").animate({ opacity: 0.8 },1000);
+
+       });
 });
-
-    // $(".image-text").hover(function () {
-    //     // over
-    //     $(".layout").animate({ opacity: 1 }, 50);
-    //     $(".bs").addClass("portfolio-hover-effect");
-    // },
-    //     function () {
-    //         // out
-    //         $(".layout").animate({ opacity: 0 }, 50);
-    //         $(".bs").removeClass("#portfolio-hover-effect");
-    //     });
-    // $(".image-text").hover(function () {
-    //     // over
-    //     $("#projectname2").animate({ opacity: 1 }, 50);
-    //     $(".text").addClass("portfolio-hover-effect");
-    // },
-    //     function () {
-    //         // out
-    //         $("#projectname2").animate({ opacity: 0 }, 50);
-    //         $(".text").removeClass("portfolio-hover-effect");
-    //     });
-    // $(".image-text").hover(function () {
-    //     // over
-    //     $("#projectname3").animate({ opacity: 1 }, 50);
-    //     $(".text").addClass("portfolio-hover-effect");
-    // },
-    //     function () {
-    //         // out
-    //         $("#projectname3").animate({ opacity: 0 }, 50);
-    //         $(".text").removeClass("portfolio-hover-effect");
-    //     });
-    // $(".image-text").hover(function () {
-    //     // over
-    //     $("#projectname4").animate({ opacity: 1 }, 50);
-    //     $(".text").addClass("portfolio-hover-effect");
-    // },
-    //     function () {
-    //         // out
-    //         $("#projectname4").animate({ opacity: 0 }, 50);
-    //         $(".text").removeClass("portfolio-hover-effect");
-    //     });
-    // $(".image-text").hover(function () {
-    //     // over
-    //     $("#projectname5").animate({ opacity: 1 }, 50);
-    //     $(".text").addClass("portfolio-hover-effect");
-    // },
-    //     function () {
-    //         // out
-    //         $("#projectname5").animate({ opacity: 0 }, 50);
-    //         $(".text").removeClass("portfolio-hover-effect");
-    //     });
-    // $(".image-text").hover(function () {
-    //     // over
-    //     $("#projectname6").animate({ opacity: 1 }, 50);
-    //     $(".text").addClass("portfolio-hover-effect");
-    // },
-    //     function () {
-    //         // out
-    //         $("#projectname6").animate({ opacity: 0 }, 50);
-    //         $(".text").removeClass("portfolio-hover-effect");
-    //     }); $(".image-text").hover(function () {
-    //         // over
-    //         $("#projectname7").animate({ opacity: 1 }, 50);
-    //         $(".text").addClass("portfolio-hover-effect");
-    //     },
-    //         function () {
-    //             // out
-    //             $("#projectname7").animate({ opacity: 0 }, 50);
-    //             $(".text").removeClass("portfolio-hover-effect");
-    //         });
-    // $(".image-text").hover(function () {
-    //     // over
-    //     $("#projectname8").animate({ opacity: 1 }, 50);
-    //     $(".text").addClass("portfolio-hover-effect");
-    // },
-    //     function () {
-    //         // out
-    //         $("#projectname8").animate({ opacity: 0 }, 50);
-    //         $(".text").removeClass("portfolio-hover-effect");
-    //     });
-
-
-
-
 
 // contact form validation//
 
@@ -112,7 +69,7 @@ btn.addEventListener("click", function () {
         alert("Please fill all the fields");
     }
     else
-        alert("Hello!We are delighted to have you,we have received your message")
+        alert(name + "" + "" + ",thanks a bunch!😎,we have received your message")
 });
 
 
