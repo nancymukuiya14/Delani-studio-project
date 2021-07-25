@@ -15,46 +15,56 @@ $(document).ready(function () {
     });
     // portfolio hover effect//
 
-    $(".text1").hover(function () {
-        $(".text1").animate({ opacity: 0.8 },1000);
+    $("#nancy1").hover(function () {
+        $(".text1").animate({ opacity: 0.8 },50);
 
-       });
+    },
+        function () {
+            $(".text1").animate({ opacity: 0 },50)
+        });
 
-    $(".text2").hover(function () {
-        $(".text2").animate({ opacity: 0.8 },1000);
-
-       });
-
-    $(".text3").hover(function () {
-        $(".text3").animate({ opacity: 0.8 },1000);
-
-       });
-
-    $(".text4").hover(function () {
-        $(".text4").animate({ opacity: 0.8 },1000);
-
-       });
-
-    $(".text5").hover(function () {
+    $("#nancy2").hover(function () {
+        $(".text2").animate({ opacity: 0.8 },50);
+    },
+        function () {
+            $(".text2").animate({ opacity: 0 },50)
+        });
+    $("#nancy3").hover(function () {
+        $(".text3").animate({ opacity: 0.8 },50);
+    },
+        function () {
+            $(".text3").animate({ opacity: 0 },50)
+        });
+    $("#nancy4").hover(function () {
+        $(".text4").animate({ opacity: 0.8 },50);
+    },
+        function () {
+            $(".text4").animate({ opacity: 0 },50)
+        });
+    $("#nancy5").hover(function () {
         $(".text5").animate({ opacity: 0.8 },50);
-
-       });
-
-    $(".text6").hover(function () {
-        $(".text6").animate({ opacity: 0.8 },1000);
-
-       });
-
-    $(".text7").hover(function () {
-        $(".text7").animate({ opacity: 0.8 },1000);
-
-       });
-
-    $(".text8").hover(function () {
-        $(".text8").animate({ opacity: 0.8 },1000);
-
-       });
-});
+    },
+        function () {
+            $(".text5").animate({ opacity: 0 },50)
+        });
+    $("#nancy6").hover(function () {
+        $(".text6").animate({ opacity: 0.8 },50);
+    },
+        function () {
+            $(".text6").animate({ opacity: 0 },50)
+        });
+    $("#nancy7").hover(function () {
+        $(".text7").animate({ opacity: 0.8 },50);
+    },
+        function () {
+            $(".text7").animate({ opacity: 0 },50)
+        });
+    $("#nancy8").hover(function () {
+        $(".text8").animate({ opacity: 0.8 },50);
+    },
+        function () {
+            $(".text8").animate({ opacity: 0 },50)
+        });
 
 // contact form validation//
 
@@ -70,6 +80,7 @@ btn.addEventListener("click", function () {
     }
     else
         alert(name + "" + "" + ",thanks a bunch!😎,we have received your message")
+});
 });
 
 
