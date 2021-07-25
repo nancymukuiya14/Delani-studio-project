@@ -186,11 +186,24 @@ body {
   }
 
  .text:hover {
-  opacity: 0;
+  opacity: 1;
             
 }
 .image-text {
     box-sizing: border-box;
     border: 3px solid white;
+
+}
+#fullname {
+    color: white;
+    font-size: 1rem;
+}
+#email {
+    color: white;
+    font-size: 1rem;
+}
+#send-message {
+    color: white;
+    font-size: 1rem;
 
 }
