@@ -14,6 +14,7 @@ $(document).ready(function () {
             $(".defination3").toggle();
         });
 
+
         // contact form validation//
    //adding event listener//
 var btn= document.getElementById("send-message");
