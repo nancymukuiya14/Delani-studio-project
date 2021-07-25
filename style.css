@@ -178,13 +178,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
-    /* margin-left: 300px; */
+    position: relative;
+    margin-left: 300px;
 }
 
-/* .social-media img {
+.social-media img {
     margin-right: 15px;
-} */
+}
 
 .studio {
     text-align: center;
@@ -359,17 +359,4 @@ h2 {
     color: white;
 }
 
-  /* @media only screen and (max-width: 700px) {
-        .welcome p {
-          font-size: 2em;
-          margin-right:-15rem;
-        }
-        .welcome-text {
-            font-size: 2em;
-            margin-right:-15rem;
-        }
-        .mouse_click {
-          padding-top: 80px;
-        }
-    }; */
     
