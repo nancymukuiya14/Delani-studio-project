@@ -22,8 +22,9 @@ or call 0705814086.
 * Git.
 * web browser.
 ## live link.
+https://nancymukuiya14.github.io/Delani-studio-project/
 
-## BDD
+## Known Bugs
 Thankfully i have no bugs in this project.
 
 ## Images.
