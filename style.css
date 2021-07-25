@@ -155,13 +155,16 @@ body {
       padding: 10px;
       color: white;
       position: relative;
-      bottom: 100px;
-      left: 260px;
+      bottom: 90px;
+      left: 240px;
   }
   .social-media {
       display: flex;
       position: relative;
       margin-left: 300px;
+  }
+  .social-media img {
+      margin-right: 15px;
   }
   .studio {
       text-align: center;
